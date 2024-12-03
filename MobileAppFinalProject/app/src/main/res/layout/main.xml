@@ -73,6 +73,18 @@
         app:srcCompat="@drawable/ic_launcher_background"
         tools:ignore="SpeakableTextPresentCheck" />
 
+    <TextView
+        android:id="@+id/Favoritetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favorite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/FavoriteBtn"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="@+id/FavoriteBtn"
+        app:layout_constraintTop_toBottomOf="@+id/FavoriteBtn"
+        app:layout_constraintVertical_bias="0.0" />
+
     <ImageButton
         android:id="@+id/HomeBtn"
         android:layout_width="60dp"
@@ -99,39 +111,6 @@
         app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/Favoritetext"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Favorite"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/FavoriteBtn"
-        app:layout_constraintHorizontal_bias="0.6"
-        app:layout_constraintStart_toStartOf="@+id/FavoriteBtn"
-        app:layout_constraintTop_toBottomOf="@+id/FavoriteBtn"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/Communitytext"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Community"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/CommunityBtn"
-        app:layout_constraintStart_toStartOf="@+id/CommunityBtn"
-        app:layout_constraintTop_toBottomOf="@+id/CommunityBtn"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/Historytext"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:text="History"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/communityBtn"
-        app:layout_constraintStart_toStartOf="@+id/communityBtn" />
-
     <ImageButton
         android:id="@+id/CommunityBtn"
         android:layout_width="60dp"
@@ -146,8 +125,19 @@
         app:srcCompat="@drawable/ic_launcher_background"
         tools:ignore="SpeakableTextPresentCheck" />
 
+    <TextView
+        android:id="@+id/Communitytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Community"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/CommunityBtn"
+        app:layout_constraintStart_toStartOf="@+id/CommunityBtn"
+        app:layout_constraintTop_toBottomOf="@+id/CommunityBtn"
+        app:layout_constraintVertical_bias="0.0" />
+
     <ImageButton
-        android:id="@+id/communityBtn"
+        android:id="@+id/HistoryBtn"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:textAlignment="textEnd"
@@ -159,6 +149,16 @@
         app:layout_constraintVertical_bias="0.956"
         app:srcCompat="@drawable/ic_launcher_background"
         tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/Historytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="History"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/HistoryBtn"
+        app:layout_constraintStart_toStartOf="@+id/HistoryBtn" />
 
     <ImageButton
         android:id="@+id/MapBtn"
