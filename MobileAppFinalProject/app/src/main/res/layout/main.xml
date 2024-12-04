@@ -170,7 +170,7 @@
         app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.956"
+        app:layout_constraintVertical_bias="0.959"
         app:srcCompat="@drawable/ic_launcher_background"
         tools:ignore="SpeakableTextPresentCheck" />
 
@@ -235,7 +235,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.281"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:srcCompat="@drawable/slope" />
 
     <ImageView
         android:id="@+id/EarrirFreeAccessBtn"
@@ -247,7 +247,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:srcCompat="@drawable/barrier_free" />
 
     <ImageView
         android:id="@+id/VideoFireAlarmBtn"
@@ -259,7 +259,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:srcCompat="@drawable/video_fire_alarm" />
 
     <ImageView
         android:id="@+id/WritingDeskBtn"
@@ -283,7 +283,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:srcCompat="@drawable/service_counter" />
 
     <ImageView
         android:id="@+id/VisualDisplayBoardBtn"
@@ -295,7 +295,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.757"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:srcCompat="@drawable/visua_display_board" />
 
     <ImageView
         android:id="@+id/ListeningAssSystemBtn"
@@ -307,7 +307,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.757"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:srcCompat="@drawable/listening_assistance_system" />
 
     <ImageView
         android:id="@+id/imageView21"
@@ -319,7 +319,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.757"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:srcCompat="@drawable/tactilebraille" />
 
     <ImageView
         android:id="@+id/ToiletBtn"
@@ -331,7 +331,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.281"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:srcCompat="@drawable/wheel" />
 
     <ImageView
         android:id="@+id/ParkingAreaBtn"
@@ -343,7 +343,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.281"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:srcCompat="@drawable/park" />
 
     <ImageView
         android:id="@+id/LiftBtn"
@@ -355,7 +355,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.281"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:srcCompat="@drawable/lift" />
 
     <TextView
         android:id="@+id/textView9"
