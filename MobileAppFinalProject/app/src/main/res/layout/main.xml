@@ -238,7 +238,7 @@
         app:srcCompat="@drawable/slope" />
 
     <ImageView
-        android:id="@+id/EarrirFreeAccessBtn"
+        android:id="@+id/BarrirFreeAccessBtn"
         android:layout_width="80dp"
         android:layout_height="80dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -439,7 +439,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/EarrirFreeAccessBtn"
+        app:layout_constraintTop_toBottomOf="@+id/BarrirFreeAccessBtn"
         app:layout_constraintVertical_bias="0.4"
         android:gravity="center"/>
 
