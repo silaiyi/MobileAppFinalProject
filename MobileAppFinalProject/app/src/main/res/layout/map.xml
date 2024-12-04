@@ -29,8 +29,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.958"
-        app:srcCompat="@drawable/ic_launcher_background"
-        tools:ignore="SpeakableTextPresentCheck" />
+        app:srcCompat="@drawable/fav"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:scaleType="fitCenter"/>
 
     <TextView
         android:id="@+id/Favoritetext"
@@ -55,8 +56,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.958"
-        app:srcCompat="@drawable/ic_launcher_background"
-        tools:ignore="SpeakableTextPresentCheck" />
+        app:srcCompat="@drawable/home"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:scaleType="fitCenter"/>
 
     <TextView
         android:id="@+id/Hometext"
@@ -81,8 +83,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.958"
-        app:srcCompat="@drawable/ic_launcher_background"
-        tools:ignore="SpeakableTextPresentCheck" />
+        app:srcCompat="@drawable/com"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:scaleType="fitCenter"/>
 
     <TextView
         android:id="@+id/Communitytext"
@@ -106,8 +109,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.958"
-        app:srcCompat="@drawable/ic_launcher_background"
-        tools:ignore="SpeakableTextPresentCheck" />
+        app:srcCompat="@drawable/history"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:scaleType="fitCenter"/>
 
     <TextView
         android:id="@+id/Historytext"
@@ -124,13 +128,14 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:textAlignment="textEnd"
+        android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.958"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/map"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
@@ -155,8 +160,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.958"
-        app:srcCompat="@drawable/ic_launcher_background"
-        tools:ignore="SpeakableTextPresentCheck" />
+        app:srcCompat="@drawable/post"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:scaleType="fitCenter"/>
 
     <TextView
         android:id="@+id/posttext"
